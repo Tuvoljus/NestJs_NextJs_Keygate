@@ -4,7 +4,7 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
-console.log('Main.ts:_PUBLIC_FRONTEND_URL', process.env.PUBLIC_FRONTEND_URL);
+console.log('Main.tsEnv:_PUBLIC_FRONTEND_URL', process.env.PUBLIC_FRONTEND_URL);
 
   app.enableCors({
     origin: process.env.PUBLIC_FRONTEND_URL || 'http://localhost:3000',
