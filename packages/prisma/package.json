@@ -1,0 +1,14 @@
+{
+    "name": "@prisma/client",
+    "version": "1.0.0",
+  "main": "generated/index.js",
+  "types": "generated/index.d.ts",
+  "scripts": {
+      "generate": "prisma generate --schema=schema.prisma"
+    },
+    "dependencies": {
+      "@prisma/client": "^6.5.0",
+      "prisma": "^6.5.0"
+    }
+  }
+  
